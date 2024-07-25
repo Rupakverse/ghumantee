@@ -1,0 +1,59 @@
+<!-- routes.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Routes | Trekking Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Trekking Guide</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html">Trekking Routes</a></li>
+                <li><a href="accommodation.html">Accommodation & Dining</a></li>
+                <li><a href="safety.html">Safety & Emergency</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="profile.html">User Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Trekking Routes</h2>
+        <div class="filter-container">
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="all">All</option>
+                <option value="easy">Easy</option>
+                <option value="moderate">Moderate</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <div class="routes-container" id="routes-container">
+            <!-- Trekking routes will be dynamically inserted here -->
+        </div>
+        <!-- routes.html (add this section) -->
+<section class="bus-routes">
+    <h3>Bus Routes</h3>
+    <div class="route-card">
+        <img src="images/bus1.jpg" alt="Bus Route">
+        <div class="route-card-content">
+            <h4>Route from Kathmandu to Pokhara</h4>
+            <p>Duration: 6 hours</p>
+            <p>Price: $15</p>
+            <a href="#" class="details">More Details</a>
+        </div>
+    </div>
+    <!-- Add more bus routes here -->
+</section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Trekking Guide. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

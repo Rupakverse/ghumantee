@@ -1,0 +1,63 @@
+<!-- community.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community | Trekking Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Trekking Guide</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html">Trekking Routes</a></li>
+                <li><a href="accommodation.html">Accommodation & Dining</a></li>
+                <li><a href="safety.html">Safety & Emergency</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="profile.html">User Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Community</h2>
+
+        <!-- Find Buddy Section -->
+        <section class="find-buddy">
+            <h3>Find a Trekking Buddy</h3>
+            <form id="find-buddy-form">
+                <label for="trek">Select Trek:</label>
+                <select id="trek" name="trek">
+                    <option value="everest">Everest Base Camp</option>
+                    <option value="annapurna">Annapurna Circuit</option>
+                    <option value="langtang">Langtang Valley</option>
+                </select>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit">Find Buddy</button>
+            </form>
+            <div id="buddy-results">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+
+        <!-- Other Community Content -->
+        <section class="community-forum">
+            <h3>Forum</h3>
+            <!-- Forum posts will be listed here -->
+            <div class="community-post">
+                <h4>Sample Post</h4>
+                <p>Looking for a buddy for the Annapurna Circuit trek starting next month.</p>
+            </div>
+            <!-- Add more forum posts here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trekking Guide. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
